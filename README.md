@@ -1,5 +1,7 @@
-Moa
+Magento Community built with Angular and NodeJS
 =========
+
+Merchant Protocol has created a [Magento EC2](https://merchantprotocol.com/optimized-magento-aws/) instance, optimized it and Magento on Angular to create a lightening fast website. Find out more at Merchant Protocol.
 
 <img src="https://travis-ci.org/Wildhoney/Magento-on-Angular.png" />
 
@@ -30,7 +32,7 @@ Getting Started
  
 Optionally, you may prefer to structure your config and folders in the manner described in this wiki page: https://github.com/Wildhoney/Magento-on-Angular/wiki/Preferred-Folder-Structure-and-Config 
 
-If things are not working correctly, take a look at `api/public/attributes/color` for any Laravel/Magento issues. Please don't spend too much time debugging &ndash; <a href="https://github.com/Wildhoney/Magento-on-Angular/issues">file a bug</a>!
+If things are not working correctly, take a look at `api/public/attributes/color` for any Laravel/Magento issues. Please don't spend too much time debugging &ndash; <a href="https://github.com/Jonathonbyrd/Magento-on-Angular/issues">file a bug</a>!
 
 Unit Testing
 ---------
@@ -66,7 +68,7 @@ At first glance the directories may seem over-complicated. However there's metho
 Laravel API
 ---------
 
-If you prefer to use another JS framework such as Ember or Meteor, then you're more than welcome to use the API in isolation. Below we've documented <a href="https://github.com/Wildhoney/Magento-on-Angular/blob/master/api/app/routes.php">the URLs</a> and their purposes:
+If you prefer to use another JS framework such as Ember or Meteor, then you're more than welcome to use the API in isolation. Below we've documented <a href="https://github.com/Jonathonbyrd/Magento-on-Angular/blob/master/api/app/routes.php">the URLs</a> and their purposes:
 
  * `/products` &ndash; fetch all the products;
  * `/product/5` &ndash; fetch a product with the ID of 5;
