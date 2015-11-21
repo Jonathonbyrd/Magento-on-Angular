@@ -3,8 +3,6 @@ Magento Community built with Angular and NodeJS
 
 Merchant Protocol has created a [Magento EC2](https://merchantprotocol.com/optimized-magento-aws/) instance, optimized it and Magento on Angular to create a lightening fast website. Find out more at Merchant Protocol.
 
-<img src="https://travis-ci.org/Wildhoney/Magento-on-Angular.png" />
-
 **Note:** Those updating from 0.2.8 to 0.3.0 need to run: `composer dump-autoload` from `api/` and update the new `config.json` file.
 
 Tired of Magento's lack of unit testing? Configuration over convention? Use of Prototype.js? Badly written JavaScript? Untested third-party modules? Likewise! Moa brings Magento into the 21st century.
@@ -29,8 +27,6 @@ Getting Started
  * Initialise the Node.js instance: `node node/server.js`;
  * Open `example.com/Magento-on-Angular/store/` in your browser;
  * You may need to update the `base_url` in `Magento Admin > Configuration > Web` if you did a fresh installation of Magento.
- 
-Optionally, you may prefer to structure your config and folders in the manner described in this wiki page: https://github.com/Wildhoney/Magento-on-Angular/wiki/Preferred-Folder-Structure-and-Config 
 
 If things are not working correctly, take a look at `api/public/attributes/color` for any Laravel/Magento issues. Please don't spend too much time debugging &ndash; <a href="https://github.com/Jonathonbyrd/Magento-on-Angular/issues">file a bug</a>!
 
